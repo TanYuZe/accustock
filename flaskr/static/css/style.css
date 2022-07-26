@@ -33,10 +33,10 @@
     background-color: #f7a881; /* Choose your own color here */
 }
 
-.btn-group {
+.group {
   display: flex;
     justify-content: center;
     align-items: center;
     margin-left: .2rem;
-    margin-right: .2rem; 
+    margin-right: .2rem;
 }
