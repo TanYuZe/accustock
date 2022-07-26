@@ -13,7 +13,7 @@
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='Low') }}" id="forecast_low" class="btn btn-success">Forecast Low</a>
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='Close') }}" id="forecast_close" class="btn btn-success">Forecast Close</a>
     </div>
-    <div class="btn-group" role="group" aria-label="Basic example">
+    <div class="group" role="group" aria-label="Basic example">
       <a href="{{ url_for('.accuracy', symbol=company_symbol, stock_type='Open') }}" id="accuracy_open" class="btn btn-primary">View Open accuracy</a>
       <a href="{{ url_for('.accuracy', symbol=company_symbol, stock_type='High') }}" id="accuracy_high" class="btn btn-primary">View High accuracy</a>
       <a href="{{ url_for('.accuracy', symbol=company_symbol, stock_type='Low') }}" id="accuracy_low" class="btn btn-primary">View Low accuracy</a>
