@@ -26,3 +26,9 @@
 .highlight-row-30 table>tbody>tr:nth-last-child(-n+30) {
     background-color: skyblue;
 }
+
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #f8b898; /* Choose your own color here */
+}
