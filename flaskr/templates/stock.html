@@ -5,8 +5,8 @@
   {% include 'navbar.html' %}
 {% endblock %}
 {% block content %}
-  <div class="container">
-    <h1  style="background-color:#f7a881;color:white;">{{ company }}<br>({{ company_symbol }})</h1>
+  <div class="container" style="background-color:#f7a881">
+    <h1  style="background-color:grey;color:white;">{{ company }}<br>({{ company_symbol }})</h1>
     <div class="btn-group" role="group" aria-label="Basic example">
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='Open') }}" id="forecast_open" class="btn btn-success">Forecast Open</a>
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='High') }}" id="forecast_high" class="btn btn-success">Forecast High</a>
