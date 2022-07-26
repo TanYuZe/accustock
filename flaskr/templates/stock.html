@@ -6,7 +6,7 @@
 {% endblock %}
 {% block content %}
   <div class="container">
-    <h1 class="bg-secondary p-2 text-white">{{ company }}<br>({{ company_symbol }})</h1>
+    <h1 class="bg-secondary p-2 text-white" style="background-color:#f7a881;">{{ company }}<br>({{ company_symbol }})</h1>
     <div class="btn-group" role="group" aria-label="Basic example">
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='Open') }}" id="forecast_open" class="btn btn-success">Forecast Open</a>
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='High') }}" id="forecast_high" class="btn btn-success">Forecast High</a>
