@@ -32,3 +32,11 @@
 .table-striped>tbody>tr:nth-child(odd)>th {
     background-color: #f7a881; /* Choose your own color here */
 }
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 3px solid green;
+}
