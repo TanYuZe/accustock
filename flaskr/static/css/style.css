@@ -30,5 +30,5 @@
 
 .table-striped>tbody>tr:nth-child(odd)>td,
 .table-striped>tbody>tr:nth-child(odd)>th {
-    background-color: #f8b898; /* Choose your own color here */
+    background-color: #f7a881; /* Choose your own color here */
 }
