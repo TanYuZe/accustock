@@ -72,7 +72,7 @@ li a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #f7a881;
 }
 
 .topnav{
@@ -82,7 +82,6 @@ li a:hover {
  border-color: white;
  font-size: 6vw;
  font: italic bold 50px/50px Georgia, serif;
- background-color:#b0bfd4;
 }
 
 .body {
