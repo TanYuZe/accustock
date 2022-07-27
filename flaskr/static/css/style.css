@@ -49,7 +49,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  top: 0;
+
 }
 
 li {
@@ -70,4 +70,8 @@ li a:hover {
 
 .active {
   background-color: #4CAF50;
+}
+
+.center {
+ text-align: center
 }
