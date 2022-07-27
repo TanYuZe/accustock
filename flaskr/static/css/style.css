@@ -75,10 +75,11 @@ li a:hover {
   background-color: #4CAF50;
 }
 
-.nav1 {
+.topnav {
  text-align: center;
  color:#f7a881;
- border-width: 25px 10px 4px 35px;
+ border-width: 25px 25px 25px 25px;
+ border-color: white;
 }
 
 .body {
