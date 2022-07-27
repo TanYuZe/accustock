@@ -81,8 +81,9 @@ li a:hover {
  border-width: 25px 10px 4px 35px;
 }
 
-.header {
-
+.body {
+    background-image: url("C:\Users\yuze1\OneDrive\Documents\FYP\accustock\flaskr\static\css\gradientcolor.jpg");
+  background-color: #cccccc;
 
 
 }

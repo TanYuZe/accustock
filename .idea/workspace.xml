@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aac3a5f-cc2a-470c-9a36-2915b6440a59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/flaskr/static/css/gradientcolor.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/templates/navbar.html" afterDir="false" />
     </list>
@@ -24,6 +26,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuze1\OneDrive\Documents\FYP\accustock\flaskr\static\css" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,5 +41,16 @@
       <updated>1658771178031</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
