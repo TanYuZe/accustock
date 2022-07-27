@@ -78,8 +78,10 @@ li a:hover {
 .topnav{
  text-align: center;
  color:#f7a881;
- padding: 25px 25px 25px 25px;
+ padding: 20px 20px 20px 20px;
  border-color: white;
+ font-size: 6vw;
+ font: italic bold 12px/30px Georgia, serif;
 }
 
 .body {
