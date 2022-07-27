@@ -75,7 +75,7 @@ li a:hover {
   background-color: #4CAF50;
 }
 
-.topnav {
+.topnav{
  text-align: center;
  color:#f7a881;
  border-width: 25px 25px 25px 25px;
@@ -83,7 +83,7 @@ li a:hover {
 }
 
 .body {
-    background-image: url("C:\Users\yuze1\OneDrive\Documents\FYP\accustock\flaskr\static\css\gradientcolor.jpg");
+  background-image: url("gradientcolor.jpg");
   background-color: #cccccc;
 
 
