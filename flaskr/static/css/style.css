@@ -78,7 +78,7 @@ li a:hover {
 .topnav{
  text-align: center;
  color:#f7a881;
- border-width: 25px 25px 25px 25px;
+ padding: 25px 25px 25px 25px;
  border-color: white;
 }
 
