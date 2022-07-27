@@ -30,7 +30,7 @@
 
 .table-striped>tbody>tr:nth-child(odd)>td,
 .table-striped>tbody>tr:nth-child(odd)>th {
-    background-color: #f7a881; /* Choose your own color here */
+    background-color: #cedbd5; /* Choose your own color here */
 }
 
 .group {
@@ -89,8 +89,7 @@ li a:hover {
   background-color: #cccccc;
 }
 
-<!-- HTML !-->
-<button class="button-72" role="button">Button 72</button>
+
 
 /* CSS */
 .button-72 {
