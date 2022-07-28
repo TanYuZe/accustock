@@ -72,6 +72,7 @@
 .container>.a:not(:last-child) {
  margin-right: 10px;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -81,9 +82,7 @@ ul {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-
 }
-
 li {
   float: left;
 }
@@ -108,15 +107,10 @@ li a:hover {
  text-align: center;
  color:#f7a881;
  padding: 20px 20px 20px 20px;
-
  font-size: 6vw;
  font: italic bold 50px/50px Georgia, serif;
 }
 
-.body {
-  background-image: url("gradientcolor.jpg");
-  background-color: #cccccc;
-}
 
 
 
