@@ -70,11 +70,19 @@
 }
 
 .table-striped2 {
-    font-weight: bold;
      padding: 12px 15px;
      text-align: left;
+     width: 100%;
+     border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-
+.table-striped2 tbody th {
+    font-weight: bold;
+}
 .table-striped2>tbody>tr:nth-child(odd)
 {
   background-color:#FDEBD0;
