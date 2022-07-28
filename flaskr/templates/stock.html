@@ -11,14 +11,7 @@
     <h2>Historical data</h2>
     <div id="chartcontainer"></div>
   </div>
-  {% if compare_company is defined %}
-    <div class="container">
-      <h1 class="bg-secondary p-2 text-white">{{ compare_company }}<br>({{ compare_company_symbol }})</h1>
-      <h2 style="color:#f7a881">Historical data</h2>
-      <div id="comparechartcontainer"></div>
-    </div>
-  {% endif %}
-    <div class="group" role="group" aria-label="Basic example">
+  <div class="group" role="group" aria-label="Basic example">
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='Open') }}" id="forecast_open" class="btn btn-success">Forecast Open</a>
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='High') }}" id="forecast_high" class="btn btn-success">Forecast High</a>
       <a href="{{ url_for('.forecast', symbol=company_symbol, stock_type='Low') }}" id="forecast_low" class="btn btn-success">Forecast Low</a>
@@ -30,6 +23,13 @@
       <a href="{{ url_for('.accuracy', symbol=company_symbol, stock_type='Low') }}" id="accuracy_low" class="btn btn-primary">View Low accuracy</a>
       <a href="{{ url_for('.accuracy', symbol=company_symbol, stock_type='Close') }}" id="accuracy_close" class="btn btn-primary">View Close accuracy</a>
     </div>
+  {% if compare_company is defined %}
+    <div class="container">
+      <h1 class="bg-secondary p-2 text-white">{{ compare_company }}<br>({{ compare_company_symbol }})</h1>
+      <h2>Historical data</h2>
+      <div id="comparechartcontainer"></div>
+    </div>
+  {% endif %}
 
   <div class="container">
     <h1 style="text-align: center; border-style:solid;border-color:#96b5b1;background-color:#f7a881;color:white;border-radius: 25px;">{{ company }}<br>Table format data</h1>
